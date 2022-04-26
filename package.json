@@ -11,5 +11,11 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^28.0.1"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "dependencies": {
+    "jest-environment-jsdom": "^28.0.1"
   }
 }
