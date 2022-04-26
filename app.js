@@ -32,6 +32,6 @@ form.addEventListener("submit", function (e) {
         return `<p class="result">${item}</p>`;
       })
       .join("");
-    result.innerHTML = tempText;
+    result.innerHTML = tempText; 
   }
 });
